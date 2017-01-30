@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background:black;
+	width:320px;
+}
+
+#header {
+	background:black;
+}
+
+#headerLeft {
+	width:33%;
+	background:black;
+	float:left;
+}
+
+#headerCenter {
+	width:34%;
+	background:black;
+	float:left;
+}
+
+#headerRight {
+	width:33%;
+	background:black;
+	float:right;
+}
+
+#footer {
+	background:black;
+	color:#FAF6F6;
+	font-size:9px;
+}
+
+/* Table cells*/
+.cellCenter {
+	text-align:center;
+	vertical-align:middle;
+}
+
+/* Containers*/
+#text_cols_between{
+	background:url(../images/containerMiddle.jpg) 0 0 repeat-y;
+	width:280px;
+	margin:0;
+	max-height:480px;
+}
+
+#text_cols_top{
+	background:url(../images/containerBottom.jpg) 0 100% no-repeat;
+}
+
+#text_cols_bottom{
+	background:url(../images/containerTop.jpg) 0 0 no-repeat;
+	padding:30px 10px;
+	clear:both;
+	margin: 0 auto;
+	display:block;
+	height:auto;
+}
+
+#mainContainer {
+	overflow-y:scroll;
+	max-width:inherit;
+	max-height:400px;
+	background:1427dd;
+	font-size:10px;
+}

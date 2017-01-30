@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.tacspacestudios.tacspaceapp"
+    versionCode = "10"
+    version     = "0.0.1" >
+
+  <name>Tacspace App</name>
+
+  <description>
+      An application that shares Dj Tacspace's music, news, and events.
+  </description>
+
+  <author href="https://www.tacspacestudios.tacspaceApp.com" email="djtacspace@gmail.com">
+      Dj Tacspace
+  </author>
+
+</widget>
