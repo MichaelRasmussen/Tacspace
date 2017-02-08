@@ -5,8 +5,17 @@
     versionCode = "10"
     version     = "0.0.1" >
 
-  <name>Tacspace App</name>
+<access origin=’https://wavo.me’ subdomains=’true’ />
+<access origin=’https://w.soundcloud.com’ subdomains=’true’ />
+<access origin=’https://www.facebook.com’ subdomains=’true’ />
 
+<preference name=’permissions’ value=’none’/>
+<preference name=’fullscreen’ value=’true’ />
+
+  <name>Tacspace App</name>
+  
+  <icon src=’icon.png’ />
+  
   <description>
       An application that shares Dj Tacspace's music, news, and events.
   </description>
