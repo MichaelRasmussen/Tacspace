@@ -7,9 +7,11 @@
 
 <access origin=’https://wavo.me’ subdomains=’true’ />
 <access origin=’https://w.soundcloud.com’ subdomains=’true’ />
-<access origin=’https://www.facebook.com/djtacspace’ subdomains=’true’ />
+<access origin=’https://www.facebook.com’ subdomains=’true’ />
 
 <preference name=’fullscreen’ value=’true’ />
+<preference name=’permissions’ value=’none’/>
+
 
   <name>Tacspace App</name>
   
